@@ -1,0 +1,139 @@
+/* NULL */
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+background:transparent;
+}*/
+/*Do not forget to describe the styles for:focus!*/
+/*:focus {
+outline:0;
+}
+/*body {
+line-height:1;
+}
+ol, ul {
+list-style:none;
+}
+/*For tables still need to write 'cellspacing="0"' in code
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+caption, th, td {
+text-align:left;
+font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:"";
+}
+blockquote, q {
+quotes:"" "";
+}*/
+/*End NULL*/
+
+/*body {
+ font-family:Tahoma, Verdana, Arial, 'Sans Serif';
+ margin:20px;
+}*/
+
+.table-brent {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	/*margin:20px;*/
+	border:#ccc 1px solid;
+	border-collapse:separate;
+	
+	 width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+
+.table-brent th {
+	font-weight:bold;
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+
+.table-brent img {
+	
+	width:100%;
+	height:100%;
+	margin: center;
+}
+
+
+.table-brent th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+.table-brent tr:first-child th:first-child{
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+.table-brent tr:first-child th:last-child{
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+.table-brent tr{
+	text-align: center;
+	padding-left:20px;
+}
+.table-brent tr td:first-child{
+	text-align: center;
+	padding-left:20px;
+	border-left: 0;
+}
+.table-brent tr td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+.table-brent tr:nth-child(even) td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+.table-brent tr:last-child td{
+	border-bottom:0;
+}
+
+

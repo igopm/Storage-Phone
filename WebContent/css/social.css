@@ -1,0 +1,84 @@
+    .rrssb-buttons {
+        box-sizing: border-box;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        height: 36px;
+        margin: 0;
+        padding: 0;
+        width: top;
+    }
+    .rrssb-buttons:after {
+        clear: both
+    }
+    .rrssb-buttons:after,
+    .rrssb-buttons:before {
+        content: ' ';
+        display: table
+    }
+    .rrssb-buttons li {
+        box-sizing: border-box;
+        float: left;
+        height: 100%;
+        line-height: 13px;
+        list-style: none;
+        margin: 0;
+        padding: 0 2px
+    }
+    .rrssb-buttons li.rrssb-facebook a {
+        background-color: #306199
+    }
+    .rrssb-buttons li.rrssb-facebook a:hover {
+        background-color: #244872
+    }
+    .rrssb-buttons li.rrssb-googleplus a {
+        background-color: #e93f2e
+    }
+    .rrssb-buttons li.rrssb-googleplus a:hover {
+        background-color: #ce2616
+    }
+    .rrssb-buttons li.rrssb-instagram a {
+        background-color: #125688
+    }
+    .rrssb-buttons li.rrssb-instagram a:hover {
+        background-color: #0c3a5b
+    }
+    .rrssb-buttons li.rrssb-vk a {
+        background-color: #4d71a9
+    }
+    .rrssb-buttons li.rrssb-vk a:hover {
+        background-color: #3d5a86
+    }
+    . .rrssb-buttons li.rrssb-print a:hover {
+        background-color: #717f8b
+    }
+    .rrssb-buttons li a {
+        background-color: #ccc;
+        border-radius: 2px;
+        box-sizing: border-box;
+        display: block;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 700;
+        height: 100%;
+        padding: 11px 7px 12px 27px;
+        position: relative;
+    }
+    .rrssb-buttons li a:after {
+        height: 0;
+        bottom: 0;
+        transition: none;
+    }
+    .rrssb-buttons li a .rrssb-icon {
+        display: block;
+        left: 10px;
+        padding-top: 9px;
+        position: absolute;
+        top: 0;
+        width: 10%
+    }
+    .rrssb-buttons li a .rrssb-icon svg {
+        height: 17px;
+        width: 17px
+    }
+    .rrssb-buttons li a .rrssb-icon svg path {
+        fill: #fff
+    }

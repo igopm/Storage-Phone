@@ -1,0 +1,160 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url(../jpg_1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	height: 100%;
+	position: relative;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+	color: #fc6;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+#header {
+	background: url(../1.jpg) no-repeat;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	border-radius: 5px;
+}
+
+#about {
+	float: left;
+	border: 1px solid #333;
+	background: url(../1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	width: 75%;
+	padding: 5px;
+	margin: 10px 10px 20px 5px;
+	border-radius: 2px;
+}
+
+#footer {
+	background: url(../1.jpg) no-repeat;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	padding: 1.2%;
+	color: #fff;
+	clear: left;
+	text-align: center;
+	bottom: 0;
+	width: 97.6%;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+}
+
+a:hover, a.novisited:hover, a.xhr:hover, a.visited:hover {
+	color: #C5B14D;
+}
+/*red color words*/
+nav {
+	max-width: 660px;
+	margin: 0 auto;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	margin-right: 25px;
+	padding-left: 0;
+	list-style: none;
+	float: right;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+
+li a {
+	color: #000000;
+	text-transform: uppercase;
+}
+
+li {
+	display: inline-block;
+	margin-left: 25px;
+	transition: .5s linear;
+}
+
+li a:after {
+	content: "";
+	width: 0;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	background: #868686;
+	transition: all 0.5s linear;
+}
+
+li a:hover:after {
+	width: 100%;
+}
+
+#scrollup {
+	position: fixed;
+	opacity: 0.8;
+	padding: 10px 10px 10px;
+	background: #C5B14D;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	right: 6%;
+	bottom: 12%;
+	display: none;
+	cursor: pointer;
+}
+
+video {
+	width: 80%;
+	border-radius: 5px;
+}
+
+#inputArea {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	background-color: #f6f6f6;
+	padding: 10px;
+	width: 310px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#inputArea input, #inputArea textarea {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-bottom: auto;
+	display: block;
+	padding: 4px;
+	width: 300px;
+}
+
+.activeField {
+	background-image: none;
+	background-color: #ffffff;
+	border: solid 1px #33677F;
+}
